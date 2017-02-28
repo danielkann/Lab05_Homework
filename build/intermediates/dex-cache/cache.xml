@@ -2,121 +2,139 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_548cc5c879a51a50bb6b13667b39d2a2c15e20d6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_519f2039c35cd3b6cc703df595b9143bfd8972a2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c83fbde55c05bc186002d7ce3570d619c3d6ee1f">
-        <dex dex="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/pre-dexed/debug/com.android.support-gridlayout-v7-25.1.0_78db730686be797670b04c9119a4cf17ac699395.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_0c390c853435ea638c91d4aeacaa7243f73c82ff.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/exploded-aar/com.noisepages.nettoyeur/midi/1.0.0-rc1/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/exploded-aar/com.noisepages.nettoyeur/midi/1.0.0-rc1/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="a35b73ff5c4ab6af57b21c03b9b3aa234d816a7f">
-        <dex dex="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/pre-dexed/debug/com.noisepages.nettoyeur-midi-1.0.0-rc1_0912ee842a0c5ab76f6ecdb1a72f2b2bcd612002.jar" />
+        <dex dex="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.noisepages.nettoyeur-midi-1.0.0-rc1_68d151793bcf91e706dd2009b9e91841e87e5686/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/conorsouness/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c83fbde55c05bc186002d7ce3570d619c3d6ee1f">
+        <dex dex="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-gridlayout-v7-25.1.0_8ce94aeb808e630927c6d6ae6ac0630608a4bd13/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/student/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_a8b0796112381f44acf38cfefef5be77fe0b1ed9.jar" />
+        <dex dex="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_20072b0e7da042565a476ddf754ecb321ab6732d/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_20bb8e1b112e77e0fb485ead03114a69ad32feaf.jar" />
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_384cdf08173bee8e675fcb0aec9a472ed549624f/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/exploded-aar/org.puredata.android/pd-core/1.0.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="79334435f653b507dd64f120572d49d9620bbf49">
-        <dex dex="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/pre-dexed/debug/org.puredata.android-pd-core-1.0.2_3db99a7f24648b05003546bfb59e2b3ae048fd0c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_539b565a5e5171eca31e494a1f0a3e4b56654881.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_e5005290f1ff116fc496c25fdc2ec4bab8c35adf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_983fe79250fba155af76a4375e3f8d3c73bbf37f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_99afa012d29bb9f9d4dae7b852fa5330a3f02c34.jar" />
+        <dex dex="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_5f2b0f4e692831a974aa9e6a1c38335d5f8718a4/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_95dee059e3768add39ea4ae9aa2a77e68da0e10b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/Users/conorsouness/Downloads/Lab5_Template/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_75a34b3160c0e3cb3fc0cd400b564f78d832dabd.jar" />
+        <dex dex="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_8c076dfa72956f67a9b163f59d9d07e4683fd4fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_c000a1a84aa3945fc753479bc594da977f530371/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0183d7f56d5eabdeee16a4f654f2efcff2e1c526">
+        <dex dex="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1caa55d8a596e405415644461fb737bebb5582db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/exploded-aar/org.puredata.android/pd-core/1.0.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="79334435f653b507dd64f120572d49d9620bbf49">
+        <dex dex="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/transforms/dex/debug/folders/1000/10/org.puredata.android-pd-core-1.0.2_54a14974c8ffb36a49449b074b54966593ed1ac8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_ce6376adcfbf38e967f3e186af1e60e89ffbb313/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_6613ff2b6248c46a9044c414a9a74c04a87b0aad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa424adbe41f6fd172cdb715889a3cebb563627d">
+        <dex dex="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_31ac8f7a0e529be84ae871a738760eb90fee325e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_d33bf6e3bb2a216c2acedb80332b494fd2f2ed90/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Volumes/Local Data/Lab05_Homework-DanielKann/Lab05_Homework/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_e2a87cec850920bc619eac0eb80268717a747898/classes.dex" />
     </item>
 
 </items>

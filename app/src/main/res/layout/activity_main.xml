@@ -11,4 +11,161 @@
     tools:context="com.csis.lab05.MainActivity">
 
 
+    <Switch
+        android:text="On/Off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/onOff" />
+
+    <TextView
+        android:text="y value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/onOff"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/yText" />
+
+    <TextView
+        android:text="x value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_below="@+id/onOff"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="z value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/onOff"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/zText" />
+
+    <TextView
+        android:text="Y VALUE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yText"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/yValue" />
+
+    <TextView
+        android:text="X VALUE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/yValue"
+        android:layout_alignParentStart="true"
+        android:id="@+id/xValue" />
+
+    <TextView
+        android:text="Z VALUE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/yValue"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/zValue" />
+
+    <Switch
+        android:text="On/Off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yValue"
+        android:layout_alignStart="@+id/onOff"
+        android:layout_marginTop="36dp"
+        android:id="@+id/onOffLati" />
+
+    <TextView
+        android:text="VALUE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/longiText"
+        android:layout_alignStart="@+id/longiText"
+        android:id="@+id/longiValue" />
+
+    <TextView
+        android:text="current position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/onOffLati"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="VALUE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/latiValue"
+        android:layout_below="@+id/latiText"
+        android:layout_alignStart="@+id/latiText" />
+
+    <TextView
+        android:text="destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/longiValue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/LatiText2"
+        android:id="@+id/latiInput"
+        android:text="52.6687383"
+        android:layout_toStartOf="@+id/LongiText2" />
+
+    <TextView
+        android:text="Latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/latiText"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/longiText"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/LongiText2" />
+
+    <TextView
+        android:text="Longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LongiText2"
+        android:layout_marginStart="24dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/yText" />
+
+    <TextView
+        android:text="Latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LatiText2"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="confirm destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SendInput"
+        android:layout_below="@+id/latiInput"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/longiInput"
+        android:text="-8.5745593"
+        android:layout_below="@+id/LongiText2"
+        android:layout_alignParentEnd="true" />
+
 </RelativeLayout>
