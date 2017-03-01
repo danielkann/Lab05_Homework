@@ -57,6 +57,12 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     double latitude;
     double longitude;
 
+    //test values for longitude and latitude (New Yor ~ 13,8m)
+    //current latitude: 40.7127
+    //current longitude: -74.0058
+    //destination lat: 40.7128
+    //destination long: -74.0059
+
     private SensorManager mSensorManager;
     private Sensor mAccelerometer;
 
@@ -68,7 +74,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         Switch onOffSwitch = (Switch) findViewById(R.id.onOff);//declared the switch here pointing to id onOffSwitch
         Switch onOffLatiSwitch = (Switch) findViewById(R.id.onOffLati);
 
-        Button send = (Button) findViewById(R.id.SendInput);
+        Button sendButton = (Button) findViewById(R.id.SendInput);
+        Button currentPosButton = (Button) findViewById(R.id.currentPos);
         final TextView latiSend = (TextView) findViewById(R.id.latiInput);//used to send latiInput when clicking on the send Button
         final TextView longiSend = (TextView) findViewById(R.id.longiInput);//used to send longiInput
 
@@ -121,7 +128,17 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         });
 
         //<------BUTTON CLICK LISTENER--------------->
-        send.setOnClickListener(new View.OnClickListener() {
+        currentPosButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                latiSend.setText(lati.getText());
+                longiSend.setText(longi.getText());
+            }
+
+        });
+
+
+        sendButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -185,7 +202,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     }
 
 
-    //methods from abstract Clas SensorEventListener
+    //methods from abstract Class SensorEventListener
     @Override
     public void onSensorChanged(SensorEvent event) {
         Sensor mySensor = event.sensor;

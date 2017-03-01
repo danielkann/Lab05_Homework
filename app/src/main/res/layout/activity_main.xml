@@ -84,12 +84,31 @@
         android:layout_alignStart="@+id/longiText"
         android:id="@+id/longiValue" />
 
+    <Button
+        android:text="confirm destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SendInput"
+        android:layout_below="@+id/latiInput"
+        android:layout_centerHorizontal="true" />
+
     <TextView
         android:text="current position"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
+        android:textStyle="normal|bold"
         android:layout_below="@+id/onOffLati"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:text="destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textStyle="normal|bold"
+        android:layout_above="@+id/currentPos"
         android:layout_centerHorizontal="true" />
 
     <TextView
@@ -101,30 +120,12 @@
         android:layout_alignStart="@+id/latiText" />
 
     <TextView
-        android:text="destination"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/longiValue"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="22dp"
-        android:id="@+id/textView3" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:layout_below="@+id/LatiText2"
-        android:id="@+id/latiInput"
-        android:text="52.6687383"
-        android:layout_toStartOf="@+id/LongiText2" />
-
-    <TextView
         android:text="Latitude"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/latiText"
         android:layout_below="@+id/textView2"
-        android:layout_alignParentStart="true" />
+        android:layout_alignStart="@+id/LatiText2" />
 
     <TextView
         android:text="Longitude"
@@ -132,32 +133,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/longiText"
         android:layout_below="@+id/textView2"
-        android:layout_alignStart="@+id/LongiText2" />
-
-    <TextView
-        android:text="Longitude"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/LongiText2"
-        android:layout_marginStart="24dp"
-        android:layout_below="@+id/textView3"
-        android:layout_alignStart="@+id/yText" />
-
-    <TextView
-        android:text="Latitude"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/LatiText2"
-        android:layout_below="@+id/textView3"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:text="confirm destination"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/SendInput"
-        android:layout_below="@+id/latiInput"
-        android:layout_centerHorizontal="true" />
+        android:layout_toEndOf="@+id/textView2" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -166,6 +142,39 @@
         android:id="@+id/longiInput"
         android:text="-8.5745593"
         android:layout_below="@+id/LongiText2"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignStart="@+id/LongiText2" />
+
+    <TextView
+        android:text="Latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LatiText2"
+        android:layout_below="@+id/currentPos"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LongiText2"
+        android:layout_below="@+id/currentPos"
+        android:layout_alignStart="@+id/longiValue" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/latiInput"
+        android:text="52.6687383"
+        android:layout_below="@+id/LatiText2"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="get current position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/currentPos"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
